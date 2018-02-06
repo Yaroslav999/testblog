@@ -1,0 +1,37 @@
+ru:
+
+  errors:
+    messages:
+      mini_magick_processing_error : 'При заполнении формы возникли ошибки'
+  activerecord:
+    errors:
+      messages:
+        mini_magick_processing_error : ' При заполнении формы возникли ошибки'
+      models:
+        user:
+          attributes:
+            password:
+              blank: ' не может быть пустым'
+            email:
+              blank: 'не может быть пустым'
+        post:
+          attributes:
+            title:
+              blank: 'не может быть пустым'    
+            summary:
+              blank: 'не может быть пустым'
+            body:
+              blank: 'не может быть пустым'
+            category:
+              required: 'не может быть пустым'
+    models:
+      post: 'Статья'
+    attributes:
+      post:
+        all_tags: 'Теги'
+        title: 'Название'
+        summary: 'Краткая статья'
+        body: 'Содержание'
+      category:
+        parent_id: 'Категория родитель'
+        name: 'Название'

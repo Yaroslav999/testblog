@@ -1,0 +1,28 @@
+ru:
+  will_paginate:
+    previous_label: '&larr; Туда'
+    next_label: 'Сюда &larr;'
+  admin:
+    posts:
+      edit:
+        title: 'Редактирование статьи'
+      new:
+        title: 'Новая статья'
+      form:
+        submit:
+          '%{action} статью'
+        back: 'Назад'
+    categories:
+        index:
+          title: 'Категории'
+        edit:
+          title: 'Редактирование категории'
+        new:
+          title: 'Новая категория'
+        form:
+          submit:
+            '%{action} категорию'
+          back: 'Назад'
+    
+  title: 'Статьи'
+
